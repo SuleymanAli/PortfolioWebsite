@@ -1,0 +1,45 @@
+.icon {
+	@extend .background-rule;
+	width: 1em;
+	height: 1em;
+
+	&.icon-codepen {
+		background-image: url('../assets/icons/socials/codepen.svg');
+	}
+
+	&.icon-github {
+		background-image: url('../assets/icons/socials/github.svg');
+	}
+
+	&.icon-instagram {
+		background-image: url('../assets/icons/socials/instagram.svg');
+	}
+
+	&.icon-linkedin {
+		background-image: url('../assets/icons/socials/linkedin.svg');
+	}
+
+	&.icon-twitter {
+		background-image: url('../assets/icons/socials/twitter.svg');
+	}
+
+	&.icon-upwork {
+		background-image: url('../assets/icons/socials/upwork.svg');
+	}
+
+	&.icon-whatsapp {
+		background-image: url('../assets/icons/socials/whatsapp.svg');
+	}
+
+	&.icon-mail {
+		background-image: url('../assets/icons/socials/mail.svg');
+	}
+
+	&.icon-stackoverflow {
+		background-image: url('../assets/icons/socials/stackoverflow.svg');
+	}
+
+	&.icon-stackoverflow {
+		background-image: url('../assets/icons/socials/codewars.svg');
+	}
+}
