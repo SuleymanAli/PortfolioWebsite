@@ -416,15 +416,25 @@ button {
   background-image: url("../assets/icons/socials/stackoverflow.svg");
 }
 
-.icon.icon-stackoverflow {
+.icon.icon-codewars {
   background-image: url("../assets/icons/socials/codewars.svg");
 }
 
 .intro {
   background-color: #101010;
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
   color: #FFFFFF;
   text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .intro {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
 }
 
 .intro__profileImage {
@@ -455,7 +465,12 @@ button {
 
 .intro__profileContacts .icons {
   display: flex;
-  margin-bottom: 55px;
+}
+
+@media (min-width: 768px) {
+  .intro__profileContacts .icons {
+    margin-bottom: 55px;
+  }
 }
 
 .intro__profileContacts .icons__wrapper {
@@ -464,10 +479,21 @@ button {
   margin-left: 24px;
   margin-right: 24px;
   cursor: pointer;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 992px) {
+  .intro__profileContacts .icons__wrapper {
+    margin-bottom: 0;
+  }
 }
 
 .intro__profileContacts .icons__wrapper .icon--white {
   filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(158deg) brightness(111%) contrast(101%);
+}
+
+.intro__profileContacts .buttons {
+  display: inline-flex;
 }
 
 .intro__profileContacts .buttons__hireMe {
